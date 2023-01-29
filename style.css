@@ -1,0 +1,32 @@
+
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px inset black;
+    overflow-x: scroll;
+    background: #F0F0F0;
+    /*скрыть полосу прокрутки*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+#playa {
+    width: 100%;
+    height: 100%;
+    /*height: 150px;*/
+    /*box-shadow: 0 0 5px inset black;*/
+    background-color: blue;
+}
+
+img {
+    height: 75px;
+    margin: 10px;
+}
+
+.imgCopy {
+    position: absolute;
+}
